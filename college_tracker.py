@@ -132,4 +132,8 @@ else:
     print("Your schools are within a resonable distance (avg: " + str(totalDist) + " miles)" )
 
 
-if avAnnTuition > 
+if avAnnTuition > 50000:
+    print("Average tuition is high - research scholarship opportunities!")
+else:
+    print("Average tuition of $" + str(avAnnTuition) + " is moderate - good planning!")
+
